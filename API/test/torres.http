@@ -1,0 +1,102 @@
+
+
+GET http://localhost:3300/propietarios/cliente
+
+###
+
+
+PUT http://localhost:3300/propietarios/cliente
+Content-Type: application/json
+
+{
+  "nombres": "sebas",
+  "apellidos": "torvals",
+  "direccion": 28,
+  "telefono": 12,
+  "email": "prueba@gmail.com",
+  "id": 1
+}
+
+###
+
+
+
+GET http://localhost:3300/torres/torres
+
+###
+
+
+PUT http://localhost:3300/torres/torres
+Content-Type: application/json
+
+{
+  "nombre": "Nombre de la nueva torre",
+  "napto": 1212334,
+  "id": 1
+}
+
+### 
+
+
+
+
+
+GET http://localhost:3300/apartamentos/apartamentos
+
+###
+
+
+POST  http://localhost:3300/apartamentos/apartamentos
+Content-Type: application/json
+
+{
+  "numero": 123456789,
+  "habitaciones": 3,
+  "bathroom": 1,
+  "area": 46,
+  "torres_id": 1,
+  "propietarios_id": 1
+}
+
+
+### 
+
+GET http://localhost:3300/tarifas/tarifas
+
+###
+
+
+POST  http://localhost:3300/tarifas/tarifas
+Content-Type: application/json
+
+{
+  "valor": 14400000,
+  "year": 1,
+  "apartamentos_id": 10
+ 
+}
+
+
+
+### 
+
+GET http://localhost:3300/apartapagos/pagos
+
+###
+
+
+POST  http://localhost:3300/apartapagos/pagos
+Content-Type: application/json
+
+{
+  "year": 2024,
+  "mes": "Octubre",
+  "fecha": "2024/10/10",
+  "valor": 1440000,
+  "descripcion": "hola",
+  "apartamentos_id": 10
+ 
+}
+
+
+

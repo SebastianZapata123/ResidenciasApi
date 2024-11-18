@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4f6d7a;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #4f6d7a;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn {
+    background-color: #4f6d7a;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #3e5c64;
+}
+
+.cancel-btn {
+    background-color: #ccc;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #aaa;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loading {
+    text-align: center;
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.apartamentos-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.apartamento-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.apartamento-item p {
+    margin: 5px 0;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 6px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.edit-btn {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 6px;
+}
+
+.edit-btn:hover {
+    background-color: #2980b9;
+}
